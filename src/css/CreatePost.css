@@ -1,0 +1,131 @@
+/* General Styling */
+.create-post-container {
+  max-width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: black;
+}
+
+.create-post-container.create-post {
+  border: 2px solid #dc256c;   
+  background-color: #f9f0f500;  
+}
+
+.create-post-container.edit-post {
+  border: 2px solid #4caf50;  
+  background-color: #e8f5e9;   
+}
+
+.create-post-container h2 {
+  font-size: 21px;
+  color: #dc256c; 
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.create-post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+  color: black;
+}
+
+
+.create-post-form input,
+.create-post-form textarea {
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #000000;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.create-post-form input:focus,
+.create-post-form textarea:focus {
+  border-color: #dc256c; 
+  box-shadow: 0 0 5px rgba(220, 37, 108, 0.3);
+}
+
+
+.create-post-form button {
+  background-color: #dc256c; 
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 90px;
+  margin-left:100px;
+}
+
+.create-post-form button:hover {
+  background-color: #a30d49; /* Darker theme color */
+}
+
+/* Button for Updating */
+.create-post-container.edit-post button {
+  background-color: #4caf50; /* Green for Update */
+  color: white;
+}
+
+.create-post-container.edit-post button:hover {
+  background-color: #45a049; /* Darker green for hover */
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #e60000;
+}
+
+/* Message */
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  color: #25860d;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.message.success {
+  background-color: #dff0d8;
+  color: #046206;
+}
+
+.message.error {
+  background-color: #f2dede;
+  color: #8b0200;
+}
+.create-post-container.edit-post .message {
+  background-color: #d1e7dd; /* Light green background for edit mode */
+  color: #0f5132; /* Dark green text for edit mode */
+  border: 1px solid #badbcc; /* Light green border */
+} 

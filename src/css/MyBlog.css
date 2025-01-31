@@ -1,0 +1,79 @@
+
+.edit-form {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 60%;
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+  
+  .edit-form h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .edit-form input,
+  .edit-form textarea {
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .edit-form textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  .update-button,
+  .cancel-button {
+    background-color: rgb(245, 76, 76);
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top:-90px;
+  }
+  
+  .update-button {
+    background-color: rgb(76, 175, 80);  
+    width:100px;
+    margin-left:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 600px;
+  }
+  
+  .update-button:hover,
+  .cancel-button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancel-button {
+    background-color: rgb(250, 80, 80); /* Gray for cancel */
+  }
+  
+  .edit-form button {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .edit-form input:focus,
+  .edit-form textarea:focus {
+    border-color: rgb(76, 175, 80);
+    outline: none;
+  }
+  
+  #update {
+    margin-top: 10px;
+  }
+  

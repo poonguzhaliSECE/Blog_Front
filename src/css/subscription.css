@@ -1,0 +1,83 @@
+/* Global Styles */
+/* body {
+    cursor: pointer;
+    background-color: #f8f9fa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+/* Subscribe Page Styles */
+#subscribe {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 8px;
+    text-align: center;
+    border-image: pink;
+}
+legend h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#subscribe h2 {
+    font-size: 28px;
+    color: #dc256c; /* Main theme color */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Label Styles */
+label {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Input & Textarea Styles */
+#email input, #feedback textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+#email input:focus, #feedback textarea:focus {
+    border-color: #dc256c; /* Main theme color */
+    box-shadow: 0 0 5px rgba(220, 37, 108, 0.3);
+}
+
+/* Button Styles */
+#send {
+    background-color: #dc256c; /* Main theme color */
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 80px;
+}
+
+#send:hover {
+    background-color: #a30d49; /* Darker variant of main theme */
+}
+
+/* Footer Positioning */
+footer {
+    margin-top: 20px;
+}
+fieldset{
+    border: 3px solid;
+    border-image: linear-gradient( #701ed4, #c7325d);
+    border-image-slice: 10;
+    height: 350px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -30px;
+}

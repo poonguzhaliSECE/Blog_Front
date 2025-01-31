@@ -1,0 +1,114 @@
+body{
+  cursor: pointer;
+}
+ h1{
+  text-align: center;
+  margin-top: -1px;
+ }
+ #login-form {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f400;
+    border-radius: 10px;
+    /* box-shadow: 0 3px 20px 4px; */
+    height: 330px;
+   
+  } 
+  
+  #login-form fieldset {
+    border: 3px solid;
+  border-image: linear-gradient( #701ed4, #c7325d);
+  border-image-slice: 10;
+  height: 350px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: -30px;
+ 
+  } 
+  
+ 
+   #login-form label {
+    display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333;
+  margin-top: 2px;
+  }
+  
+  
+   #login-form input {
+    width: 170px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    font-size: 16px;
+    margin-top: 10px;
+    height: 10px;
+    margin-left: 55px;
+  }
+
+   #login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #512bcc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 2px;
+    width: 90px;
+    display: flex;
+    margin-left: 110px;
+  } 
+  
+   
+   #login-form button:hover {
+    background-color: #cc426e;
+  } 
+  
+  
+  @media (max-width: 480px) {
+    #login-form {
+      max-width: 100%;
+      padding: 15px;
+    }
+  } 
+  
+   
+   #login-form .alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 1s;
+  }
+  
+  #login-form .alert.success {
+    color: rgb(23, 233, 0);
+  }
+  
+  #login-form .alert.error {
+    color: rgb(219, 0, 0);
+    animation: shake 0.5s ease-in-out 3;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+  }
+  #p{
+    font-size: small;
+    margin-top: 30px;
+    font-family: serif;
+    margin-left: 30px;
+  }

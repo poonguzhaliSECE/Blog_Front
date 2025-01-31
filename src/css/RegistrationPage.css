@@ -1,0 +1,93 @@
+h2{
+  text-align: center;
+  margin-left:20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ } 
+#signup-form {
+  max-width: 300px;
+  margin:50px auto;
+  padding: 20px;
+  background-color: #f4f4f400;
+  border-radius: 10px;
+  /* box-shadow: 0 3px 20px 4px; */
+  height: 320px;
+}
+
+#signup-form fieldset {
+  border: 3px solid;
+  border-image: linear-gradient( #701ed4, #c7325d);
+  border-image-slice: 10;
+  height: 330px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: -30px;
+}
+
+#signup-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333;
+  margin-top: 2px;
+} 
+ #signup-form input {
+  width: 170px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  font-size: 16px;
+  margin-top: 10px;
+  height: 10px;
+  margin-left: 55px;
+} 
+
+ 
+#signup-form button {
+  width: 100%;
+  text-decoration: none;
+  text-decoration-style: none;
+  padding: 10px;
+  background-color: #480a99;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2px;
+  width: 90px;
+  display: flex;
+  margin-left: 110px;
+  text-align: center    ;
+} 
+
+#signup-form button:hover {
+  background-color: #cc426e;
+} 
+
+ #signup-form .alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition-duration: 1s;
+} 
+
+ #signup-form .alert.success {
+  color: rgb(23, 233, 0);
+}
+
+#signup-form .alert.error {
+  color: rgb(219, 0, 0);
+  animation: shake 0.5s ease-in-out 3;
+} 
+#pr{
+  font-size: small;
+  margin-top: 20px;
+  font-family: serif;
+  margin-left: 32px;
+}
