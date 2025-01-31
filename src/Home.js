@@ -11,7 +11,7 @@ const Home = () => {
 
     useEffect(() => {
       
-      axios.get('http://localhost:4000/posts')
+      axios.get('https://blog-front-eosin.vercel.app/posts')
           .then(response => setPosts(response.data))
           .catch(error => console.error('Error fetching posts:', error));
   }, []);

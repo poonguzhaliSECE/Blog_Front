@@ -9,7 +9,7 @@ const OwnBlog = () => {
     useEffect(() => {
         // Only fetch posts created by the logged-in user based on username
         if (userInfo && userInfo.username) {  // Ensure user is logged in
-            axios.get(`http://localhost:4000/posts?username=${userInfo.username}`)
+            axios.get(`https://blog-front-eosin.vercel.app/posts?username=${userInfo.username}`)
                 .then(response => setPosts(response.data))
                 .catch(error => console.error('Error fetching posts:', error));
         }

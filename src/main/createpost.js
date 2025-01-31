@@ -18,7 +18,7 @@ const CreatePost = ({ postId }) => {
         if (postId) {
             const fetchPost = async () => {
                 try {
-                    const response = await axios.get(`http://localhost:4000/posts/${postId}`);
+                    const response = await axios.get(`https://blog-front-eosin.vercel.app/posts/${postId}`);
                     const post = response.data;
                     setTitle(post.title);
                     setContent(post.content);
